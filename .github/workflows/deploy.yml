@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r python-bale-bot
+          pip install python-bale-bot
 
       - name: Run bot
         run: |
